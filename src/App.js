@@ -1,23 +1,34 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+
+import Nav from "./components/Nav";
+import Home from "./screens/Home";
+import Contact from "./screens/Contact";
+
+import ReactFullpage from "@fullpage/react-fullpage";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Nav />
+      <ReactFullpage
+        licenseKey={"YOUR_KEY_HERE"}
+        scrollingSpeed={1000}
+        // navigation <===  Add "navigation" to add a Slider on the right
+        // navigationPosition = {'left'}
+        dragAndMove={"fingersonly"}
+        render={({ state, fullpageApi }) => {
+          return (
+            <ReactFullpage.Wrapper>
+              <div className="section" data-anchor="home">
+                <Home />
+              </div>
+              <div className="section" data-anchor="contact">
+                <Contact />
+              </div>
+            </ReactFullpage.Wrapper>
+          );
+        }}
+      />
     </div>
   );
 }

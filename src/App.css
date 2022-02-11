@@ -1,38 +1,66 @@
+:root {
+  --firstColor: #e6ece9;
+  --secondColor: #1d1d35;
+  --thirdColor: #fecc00;
+  --backgroundColor: #15110e;
+  --fontTitle: cursive;
+  --fontBody: cursive;
+}
+
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
+  font-family: var(--fontBody);
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  background-attachment: fixed;
+  font-style: normal;
+  color: var(--firstColor);
+  background-size: cover;
 }
 
-.App-link {
-  color: #61dafb;
+input,
+button,
+textarea,
+select {
+  font: inherit;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+ul[role="list"],
+ol[role="list"] {
+  list-style: none;
+}
+
+h1 {
+  color: var(--thirdColor);
+  font-size: 3.5em;
+  text-shadow: 1px 1px 1px var(--secondColor);
+  letter-spacing: 2px;
+}
+
+p,
+h3,
+h2 {
+  font-family: "Source Code Pro", monospace;
+}
+
+p {
+  font-weight: 400;
+}
+
+h3 {
+  font-weight: 500;
+}
+
+h2 {
+  font-weight: 600;
 }
