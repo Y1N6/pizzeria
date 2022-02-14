@@ -12,8 +12,8 @@ const Nav = () => {
         <li data-menuanchor="home" className="active">
           <a href="#home">Home</a>
         </li>
-        <li className="navCommander">
-          <a href="#">Commander</a>
+        <li data-menuanchor="menu" className="navCommander">
+          <a href="#menu">Menu</a>
         </li>
         <li data-menuanchor="contact" className="active">
           <a href="#contact">Contact</a>

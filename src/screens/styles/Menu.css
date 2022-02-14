@@ -1,4 +1,4 @@
-.contact {
+.menu {
   background-color: var(--firstColor);
   color: var(--secondColor);
   width: 100vw;
@@ -7,12 +7,4 @@
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-}
-
-#contactMapiframe {
-  display: none;
-}
-
-#contactMapimg {
-  display: block;
 }
