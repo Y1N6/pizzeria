@@ -1,5 +1,8 @@
 .contact {
-  background-color: var(--firstColor);
+  /* background-image: url(../../assets/background.jpg); */
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
   color: var(--secondColor);
   width: 100vw;
   height: 100vh;
@@ -9,10 +12,55 @@
   align-items: center;
 }
 
+.contactMap {
+  padding-top: 60px;
+  position: relative;
+}
+
 #contactMapiframe {
   display: none;
+  border-radius: 50%;
 }
 
 #contactMapimg {
   display: block;
+  animation: rotating 20s linear infinite;
+}
+
+@keyframes rotating {
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+#contactMaptext {
+  position: absolute;
+  color: var(--secondColor);
+  top: 50%;
+  left: 140px;
+  font-size: 1.6em;
+  font-weight: bold;
+  backdrop-filter: blur(5px);
+  cursor: pointer;
+}
+
+.contactLeft {
+  color: var(--firstColor);
+  width: 500px;
+}
+
+.contactLeft h2 {
+  text-align: center;
+  margin: 30px 0;
+}
+
+.contactHoraires,
+.contactNum {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 500px;
 }
