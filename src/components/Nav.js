@@ -1,6 +1,7 @@
 import "./styles/Nav.css";
 
 import Logo from "../assets/logo.png";
+import Certif from "../assets/certif.png";
 
 const Nav = () => {
   return (
@@ -19,6 +20,9 @@ const Nav = () => {
           <a href="#contact">Contact</a>
         </li>
       </ul>
+      <div className="navCertif">
+        <img src={Certif} alt="certif" className="logoCertif"></img>
+      </div>
     </div>
   );
 };

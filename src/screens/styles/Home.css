@@ -10,3 +10,13 @@
   justify-content: center;
   align-items: center;
 }
+
+.home h1 {
+  font-family: var(--fontTitle);
+  color: var(--firstColor);
+}
+
+.home h2 {
+  font-family: var(--fontBody);
+  font-weight: lighter;
+}
