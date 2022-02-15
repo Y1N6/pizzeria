@@ -3,8 +3,8 @@
   --secondColor: #1d1d35;
   --thirdColor: #fecc00;
   --backgroundColor: #15110e;
-  --fontTitle: cursive;
-  --fontBody: cursive;
+  --fontTitle: "Milano Sans";
+  --fontBody: "MingLiU-ExtB";
 }
 
 *,
@@ -20,7 +20,6 @@ a {
 }
 
 .App {
-  font-family: var(--fontBody);
   min-height: 100vh;
   background-attachment: fixed;
   font-style: normal;
