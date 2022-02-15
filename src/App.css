@@ -3,7 +3,7 @@
   --secondColor: #1d1d35;
   --thirdColor: #fecc00;
   --backgroundColor: #15110e;
-  --fontTitle: "Milano Sans";
+  --fontTitle: cursive;
   --fontBody: cursive;
 }
 
@@ -45,7 +45,9 @@ ol[role="list"] {
 }
 
 h1 {
+  color: var(--thirdColor);
   font-size: 3.5em;
+  text-shadow: 1px 1px 1px var(--secondColor);
   letter-spacing: 2px;
 }
 
@@ -65,4 +67,41 @@ h3 {
 
 h2 {
   font-weight: 600;
+}
+
+.blackUp {
+  width: 100vw;
+  height: 50vh;
+  background-color: black;
+  animation: leaveUp 1s linear forwards;
+  position: absolute;
+  z-index: 10;
+}
+
+@keyframes leaveUp {
+  from {
+    height: 50vh;
+  }
+  to {
+    height: 0vh;
+  }
+}
+
+.blackDown {
+  width: 100vw;
+  height: 50vh;
+  background-color: black;
+  animation: leaveDown 1s linear forwards;
+  position: absolute;
+  z-index: 10;
+  bottom: 0;
+}
+
+@keyframes leaveDown {
+  from {
+    height: 50vh;
+  }
+  to {
+    height: 0vh;
+  }
 }

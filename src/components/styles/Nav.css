@@ -7,12 +7,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  border-bottom-width: 4px;
-  border-style: solid;
-  border-image: linear-gradient(to right, green, white, red) 1;
-  border-top: none;
-  border-left: none;
-  border-right: none;
+  border-bottom: 1px solid #fecc00;
 }
 
 #nav ul {
@@ -27,9 +22,7 @@
 #nav a {
   text-decoration: none;
   font-style: none;
-  color: var(--firstColor);
-  font-family: var(--fontTitle);
-  font-size: 2em;
+  color: var(--thirdColor);
 }
 
 .navLogo {
@@ -42,16 +35,6 @@
   width: 80px;
   top: -20px;
   transform: rotate(-20deg);
-}
-
-.navCertif {
-  position: absolute;
-  right: 15px;
-  top: 5.5px;
-}
-
-.logoCertif {
-  width: 45px;
 }
 
 .navCommander {
