@@ -54,7 +54,6 @@ export default function Menu() {
         ci-dessous pour les curieux. Les sections 1.10.32 et 1.10.33 du "De
         Finibus Bonorum et Malorum" de Cicéron sont aussi reproduites dans leur
         version originale, accompagnée de la traduction anglaise de H. Rackham
-        (1914).
       </p>
     </div>
   );
