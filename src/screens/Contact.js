@@ -21,7 +21,7 @@ export default function Contact() {
       <div className="contactMap">
         <div onClick={() => changeImg()}>
           <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1241.7892298105999!2d2.8336069771988575!3d50.42937802903404!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47dd30fd0f26d3d9%3A0xc3565c4576fbf535!2s%C3%89glise%20catholique%20Saint-L%C3%A9ger%20%C3%A0%20Lens!5e0!3m2!1sfr!2sfr!4v1644855656224!5m2!1sfr!2sfr"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2541.6016612299813!2d2.8240463158798375!3d50.429892896726734!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47dd30faf499b12b%3A0x908e224437b141a4!2s39%20Bd%20Emile%20Basly%2C%2062300%20Lens!5e0!3m2!1sfr!2sfr!4v1644859191694!5m2!1sfr!2sfr"
             width="600"
             title="map"
             height="550"
