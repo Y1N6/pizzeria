@@ -3,7 +3,7 @@
   --secondColor: #1d1d35;
   --thirdColor: #fecc00;
   --backgroundColor: #15110e;
-  --fontTitle: cursive;
+  --fontTitle: "Milano Sans";
   --fontBody: cursive;
 }
 
@@ -45,9 +45,7 @@ ol[role="list"] {
 }
 
 h1 {
-  color: var(--thirdColor);
   font-size: 3.5em;
-  text-shadow: 1px 1px 1px var(--secondColor);
   letter-spacing: 2px;
 }
 

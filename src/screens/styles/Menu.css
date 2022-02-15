@@ -10,4 +10,10 @@
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
+  overflow: scroll;
+}
+
+.menu p {
+  font-size: 2em;
+  color: white;
 }

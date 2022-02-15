@@ -3,7 +3,8 @@ import "./styles/Home.css";
 export default function Home() {
   return (
     <div className="home">
-      <h1>La Pizza DeLaMama</h1>
+      <h1>NEW MILANO</h1>
+      <h2>Pizza</h2>
     </div>
   );
 }
