@@ -27,10 +27,13 @@
 #nav a {
   text-decoration: none;
   font-style: none;
-  color: var(--thirdColor);
   font-family: var(--fontTitle);
   color: var(--firstColor);
   font-size: 2em;
+}
+
+#nav a:hover {
+  color: var(--thirdColor);
 }
 
 .navLogo {

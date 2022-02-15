@@ -1,0 +1,212 @@
+{
+  "allPizza": [
+    {
+      "id": "1",
+      "nom": "Mexicain",
+      "image": "https://www.zupimages.net/up/22/07/9uzu.png",
+      "prix": "10",
+      "ingredients": [
+        "Farine italienne",
+        "sauce tomate entière",
+        "mozzarella",
+        "pepperoni",
+        "saucisses de chasse",
+        "poivrons",
+        "olives",
+        "sauce pesto",
+        "origan"
+      ]
+    },
+
+    {
+      "id": "2",
+      "nom": "Poulet à l'ananas",
+      "image": "https://www.zupimages.net/up/22/07/nh3q.jpeg",
+      "prix": "10",
+      "ingredients": [
+        "Farine italienne",
+        "sauce tomate entière",
+        "mozzarella",
+        "poulet cuit",
+        "ananas",
+        "poivron",
+        "moutarde orange",
+        "canneberge",
+        "origan"
+      ]
+    },
+
+    {
+      "id": "3",
+      "nom": "Avec rosbif et cèpes",
+      "image": "https://www.zupimages.net/up/22/07/cel6.jpeg",
+      "prix": "10",
+      "ingredients": [
+        "Farine italienne",
+        "sauce aux truffes",
+        "mozzarella",
+        "rosbif",
+        "cèpes",
+        "tomates",
+        "oignons verts"
+      ]
+    },
+
+    {
+      "id": "4",
+      "nom": "Caprice classique",
+      "image": "https://www.zupimages.net/up/22/07/9fsb.jpeg",
+      "prix": "10",
+      "ingredients": [
+        "Farine italienne",
+        "sauce tomate entière",
+        "mozzarella",
+        "bacon",
+        "tomates",
+        "champignons",
+        "olives"
+      ]
+    },
+
+    {
+      "id": "5",
+      "nom": "Multi-viande",
+      "image": "https://www.zupimages.net/up/22/07/l3mk.jpeg",
+      "prix": "10",
+      "ingredients": [
+        "Farine italienne",
+        "sauce tomate entière",
+        "mozzarella",
+        "bœuf",
+        "pepperoni",
+        "saucisses de chasse",
+        "poivron",
+        "oignon de Crimée",
+        " sauce barbecue",
+        "origan"
+      ]
+    },
+
+    {
+      "id": "6",
+      "nom": "A l'agneau",
+      "image": "https://www.zupimages.net/up/22/07/6nmb.jpeg",
+      "prix": "10",
+      "ingredients": [
+        "Farine italienne",
+        "sauce tomate entière",
+        "mozzarella",
+        "agneau",
+        "aubergine au four",
+        "salsa de tomate",
+        "oignon doux",
+        "basilic",
+        "sauce secrète"
+      ]
+    },
+
+    {
+      "id": "7",
+      "nom": "Pepperoni",
+      "image": "https://www.zupimages.net/up/22/07/b1yk.jpeg",
+      "prix": "10",
+      "ingredients": [
+        "Farine italienne",
+        "Mozzarella",
+        "sauce tomate entière",
+        "vrai pepperoni italien",
+        "piments forts",
+        "câpres",
+        "origan"
+      ]
+    },
+
+    {
+      "id": "8",
+      "nom": "Avec du bacon",
+      "image": "https://www.zupimages.net/up/22/07/cqns.jpeg",
+      "prix": "10",
+      "ingredients": [
+        "Farine italienne",
+        "sauce tomate entière",
+        "mozzarella",
+        "dorblu",
+        "bacon séché",
+        "piment fort",
+        "origan"
+      ]
+    },
+
+    {
+      "id": "9",
+      "nom": "Poulet aux champignons",
+      "image": "https://www.zupimages.net/up/22/07/c4pk.jpeg",
+      "prix": "10",
+      "ingredients": [
+        "Farine italienne",
+        "parmesan et sauce à la crème",
+        "mozzarella",
+        "Dorblu",
+        "poulet au four",
+        "champignons",
+        "poivron",
+        "origan"
+      ]
+    },
+
+    {
+      "id": "10",
+      "nom": "Une sorte de jeu",
+      "image": "https://www.zupimages.net/up/22/07/1sdi.jpeg",
+      "prix": "10",
+      "ingredients": [
+        "Farine italienne",
+        "sauce tomate entière",
+        "mozzarella",
+        "magret de canard (sous vide)",
+        "sauces secrètes de l'étranger",
+        "noix",
+        "poireau",
+        "concombre",
+        "coriandre"
+      ]
+    },
+
+    {
+      "id": "11",
+      "nom": "Avec la Turquie",
+      "image": "https://www.zupimages.net/up/22/07/hepf.jpeg",
+      "prix": "10",
+      "ingredients": [
+        "Farine italienne",
+        "mozzarella",
+        "sauce à la crème",
+        "dinde",
+        "orange",
+        "amande",
+        "mélange herbes/roquette",
+        "canneberge",
+        "moutarde orange"
+      ]
+    },
+
+    {
+      "id": "11",
+      "nom": "Prosciutto",
+      "image": "https://www.zupimages.net/up/22/07/4s76.jpeg",
+      "prix": "10",
+      "ingredients": [
+        "Farine italienne",
+        "sauce tomate entière",
+        "mozzarella",
+        "PROSCUITTO",
+        "roquette",
+        "tomates cerises",
+        "tomates séchées",
+        "câpres",
+        "origan",
+        "parmesan"
+      ]
+    }
+  ]
+}

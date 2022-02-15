@@ -1,4 +1,6 @@
 import React from "react";
+import { Dialog, DialogOverlay, DialogContent } from "@reach/dialog";
+import "@reach/dialog/styles.css";
 
 import "./styles/Contact.css";
 
@@ -9,8 +11,20 @@ export default function Contact() {
     document.getElementById("contactMaptext").style.display = "none";
   };
 
+  const [showDialog, setShowDialog] = React.useState(false);
+  const open = () => setShowDialog(true);
+  const close = () => setShowDialog(false);
+
+  const [showDialog2, setShowDialog2] = React.useState(false);
+  const open2 = () => setShowDialog2(true);
+  const close2 = () => setShowDialog2(false);
+
+  const [showDialog3, setShowDialog3] = React.useState(false);
+  const open3 = () => setShowDialog3(true);
+  const close3 = () => setShowDialog3(false);
+
   return (
-    <div className="contact">
+    <div className="contact" onWheel={() => close() & close2() & close3()}>
       <div className="contactLeft">
         <h2>Horaires d'ouverture :</h2>
         <div className="contactHoraires">
@@ -26,12 +40,10 @@ export default function Contact() {
         <h2>Horaires d'ouverture :</h2>
         <div className="contactNum">
           <div>
-            <div>Lundi au Vendredi : </div>
-            <div>Samedi et Dimanche :</div>
+            <div>Contactez-nous </div>
           </div>
           <div>
-            <div>11h/15h et 18h/23h</div>
-            <div>18h/23h</div>
+            <div>0606060606</div>
           </div>
         </div>
       </div>
@@ -54,6 +66,56 @@ export default function Contact() {
             id="contactMapimg"
           ></img>
           <p id="contactMaptext">Afficher la carte</p>
+        </div>
+      </div>
+      <div className="footer">
+        <div className="footerSpace">
+          <div onClick={open}>Mentions Légales</div>
+          <Dialog
+            onClick={close}
+            // onWheel={open}
+            className="dialog"
+            isOpen={showDialog}
+            onDismiss={close}
+          >
+            <h2>Mentions Légales</h2>
+            <h3>Nom du restaurant</h3>
+            <p>Pizza test</p>
+            <h3>Nom de la société</h3>
+            <p>a remplir</p>
+            <h3>Forme juridique</h3>
+            <p>a remplir</p>
+            <h3>Capital Social</h3>
+            <p>a remplir</p>
+            <h3>Adresse du Siège Social</h3>
+            <p>a remplir</p>
+            <h3>Numéro de Siret</h3>
+            <p>a remplir</p>
+            <h3>N° d'identification TVA</h3>
+            <p>a remplir</p>
+            <h3>Responsable</h3>
+            <p>a remplir</p>
+          </Dialog>
+          <div onClick={open2}>Copyright</div>
+          <Dialog
+            onClick={close2}
+            // onWheel={close2}
+            className="dialog"
+            isOpen={showDialog2}
+            onDismiss={close2}
+          >
+            <h2>Copyright</h2>
+          </Dialog>
+          <div onClick={open3}>Crédits</div>
+          <Dialog
+            onClick={close3}
+            onWheel={close3}
+            className="dialog"
+            isOpen={showDialog3}
+            onDismiss={close3}
+          >
+            <h2>Crédits</h2>
+          </Dialog>
         </div>
       </div>
     </div>

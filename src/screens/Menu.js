@@ -1,36 +1,17 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import "./styles/Menu.css";
+import Pizzas from "../assets/DataPizza/allpizza.json";
 
-export default function Menu() {
+const Menu = () => {
+  console.log(Pizzas);
+
   return (
     <div className="menu">
-      <h1>Vos Pizzas</h1>
-      <h1>Vos Pizzas</h1>
-      <h1>Vos Pizzas</h1>
-      <h1>Vos Pizzas</h1>
-      <h1>Vos Pizzas</h1>
-      <h1>Vos Pizzas</h1>
-      <h1>Vos Pizzas</h1>
-      <h1>Vos Pizzas</h1>
-      <h1>Vos Pizzas</h1>
-      <h1>Vos Pizzas</h1>
-      <h1>Vos Pizzas</h1>
-      <h1>Vos Pizzas</h1>
-      <h1>Vos Pizzas</h1>
-      <h1>Vos Pizzas</h1>
-      <h1>Vos Pizzas</h1>
-      <h1>Vos Pizzas</h1>
-      <h1>Vos Pizzas</h1>
-      <h1>Vos Pizzas</h1>
-      <h1>Vos Pizzas</h1>
-      <h1>Vos Pizzas</h1>
-      <h1>Vos Pizzas</h1>
-      <h1>Vos Pizzas</h1>
-      <h1>Vos Pizzas</h1>
-      <h1>Vos Pizzas</h1>
-      <h1>Vos Pizzas</h1>
-      <h1>Vos Pizzas</h1>
-      <h1>Vos Pizzas</h1>
+      <div>
+        <h2>{Pizzas.allPizza.map((name) => name.nom)}</h2>
+      </div>
     </div>
   );
-}
+};
+
+export default Menu;
