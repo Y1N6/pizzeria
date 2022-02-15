@@ -1,5 +1,8 @@
 .menu {
-  background-color: var(--firstColor);
+  /* background-image: url(../../assets/background.jpg); */
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
   color: var(--secondColor);
   width: 100vw;
   height: 100vh;

@@ -26,6 +26,10 @@ a {
   font-style: normal;
   color: var(--firstColor);
   background-size: cover;
+  background-image: url(./assets/background.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 input,
