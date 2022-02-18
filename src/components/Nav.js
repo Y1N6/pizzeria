@@ -14,16 +14,40 @@ const Nav = () => {
           <a href="#home">Accueil</a>
         </li>
         <li data-menuanchor="pizza" className="navCommander">
-          <a href="#pizza" style={{color: "green"}}>Pizzas</a>
+          <a href="#pizza" style={{ color: "green" }}>
+            <p>Pizzas</p>
+            <img src={Logo} alt="pizza" className="navMobileLogo"></img>
+          </a>
         </li>
         <li data-menuanchor="pates" className="navCommander">
-          <a href="#pates">Pâtes</a>
+          <a href="#pates">
+            <p>Pâtes</p>
+            <img
+              src="https://img.icons8.com/external-icongeek26-linear-colour-icongeek26/64/000000/external-farfalle-italian-food-icongeek26-linear-colour-icongeek26.png"
+              alt="pizza"
+              className="navMobileLogo"
+            ></img>
+          </a>
         </li>
-        <li data-menuanchor="dessert" className="navCommander" >
-          <a href="#dessert" style={{color: "red"}}>Desserts</a>
+        <li data-menuanchor="dessert" className="navCommander">
+          <a href="#dessert" style={{ color: "red" }}>
+            <p>Desserts</p>
+            <img
+              src="https://img.icons8.com/emoji/48/000000/shortcake.png"
+              alt="pizza"
+              className="navMobileLogo"
+            ></img>
+          </a>
         </li>
         <li data-menuanchor="contact" className="active">
-          <a href="#contact">Contact</a>
+          <a href="#contact">
+            <p>Contact</p>
+            <img
+              src="https://img.icons8.com/external-xnimrodx-lineal-color-xnimrodx/64/000000/external-phone-notification-xnimrodx-lineal-color-xnimrodx.png"
+              alt="pizza"
+              className="navMobileLogo"
+            ></img>
+          </a>
         </li>
       </ul>
       <div className="navCertif">

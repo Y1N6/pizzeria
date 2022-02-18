@@ -18,14 +18,14 @@
 #nav ul {
   display: flex;
   flex-direction: row;
-  width: 70%;
+  width: 80%;
   justify-content: space-around;
   align-items: center;
   list-style-type: none;
 }
 
 #nav li {
-  width: 80px;
+  width: auto;
 }
 
 #nav a {
@@ -41,7 +41,7 @@
 }
 
 .navLogo {
-  left: 50px;
+  left: 30px;
   top: 20px;
   position: absolute;
 }
@@ -134,5 +134,65 @@
     transform: scale(1);
     -webkit-animation-timing-function: ease-out;
     animation-timing-function: ease-out;
+  }
+}
+
+.navMobileLogo {
+  display: none;
+}
+
+@media (max-width: 600px) {
+  #nav {
+    height: 50px;
+  }
+
+  .navlist {
+    margin: 0;
+    padding: 0;
+    width: auto;
+  }
+  #nav ul {
+    width: 80%;
+  }
+
+  #nav li {
+    width: auto;
+  }
+  .navList li:first-child {
+    display: none;
+  }
+
+  .navList li:nth-child(3n) img {
+    width: 40px;
+  }
+  .navList li:nth-child(4n) img {
+    width: 30px;
+  }
+  .navList li:nth-child(5n) img {
+    width: 37px;
+    transform: rotate(0deg);
+  }
+
+  .navList p {
+    display: none;
+  }
+
+  .navLogo {
+    display: none;
+  }
+
+  .navMobileLogo {
+    width: 25px;
+    display: flex;
+    transform: rotate(-20deg);
+  }
+
+  .logoCertif {
+    width: 30px;
+  }
+
+  .navCertif {
+    right: 5px;
+    top: 8px;
   }
 }

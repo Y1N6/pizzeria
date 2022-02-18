@@ -24,3 +24,12 @@
   font-family: var(--fontBody);
   font-weight: lighter;
 }
+
+@media (max-width: 600px) {
+  .home {
+    background: none;
+  }
+  .home h1 {
+    font-size: 3em;
+  }
+}
