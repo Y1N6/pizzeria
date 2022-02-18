@@ -1,0 +1,39 @@
+.menu {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: var(--secondColor);
+  width: 100vw;
+  height: auto !important;
+  padding-top: 60px;
+  padding-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* border-image: linear-gradient(to right, green, white, red) 1;
+  border-width: 4px;
+  border-style: solid;
+  border-left: none;
+  border-right: none;
+  border-bottom: none; */
+}
+
+.menu h2 {
+  margin-top: 60px;
+  font-size: 5em;
+  background: linear-gradient(to right, green, white, red);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: var(--fontTitle);
+}
+
+.pizza,
+.pates,
+.dessert {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 40px 0 20px 0px;
+}

@@ -1,0 +1,50 @@
+.pizzaContainer {
+  width: 550px;
+  height: 270px;
+  color: var(--firstColor);
+  margin: 50px 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pizzaContainer img {
+  width: 250px;
+}
+
+.detail-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-direction: column;
+  padding-left: 30px;
+  height: 100%;
+  width: 260px;
+}
+
+.detail-wrapper select {
+  cursor: pointer;
+  border: none;
+  width: 60%;
+  text-align: center;
+}
+
+.detail-wrapper h3 {
+  font-family: var(--fontBody);
+  font-weight: lighter;
+  font-size: 2em;
+}
+
+.detail-wrapper p {
+  font-style: italic;
+}
+
+.Holderprice {
+  display: flex;
+  width: 200px;
+  font-size: 1.5em;
+}
+
+#taille-select {
+  border-radius: 3px;
+}

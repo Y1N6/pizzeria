@@ -28,7 +28,10 @@ a {
   background-image: url(./assets/background.jpg);
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover;
+}
+
+html {
+  overflow-x: hidden;
 }
 
 input,
@@ -44,9 +47,9 @@ ol[role="list"] {
 }
 
 h1 {
-  color: var(--thirdColor);
+  /* color: var(--thirdColor); */
   font-size: 3.5em;
-  text-shadow: 1px 1px 1px var(--secondColor);
+  /* text-shadow: 1px 1px 1px var(--secondColor); */
   letter-spacing: 2px;
 }
 

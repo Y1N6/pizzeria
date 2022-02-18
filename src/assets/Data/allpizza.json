@@ -2,7 +2,7 @@
   "allPizza": [
     {
       "id": "1",
-      "nom": "Mexicain",
+      "nom": "La Mexicaine",
       "image": "https://www.zupimages.net/up/22/07/9uzu.png",
       "prix": "10",
       "ingredients": [
@@ -20,8 +20,8 @@
 
     {
       "id": "2",
-      "nom": "Poulet à l'ananas",
-      "image": "https://www.zupimages.net/up/22/07/nh3q.jpeg",
+      "nom": "La Poulet Ananas",
+      "image": "https://www.zupimages.net/up/22/07/6bkp.png",
       "prix": "10",
       "ingredients": [
         "Farine italienne",
@@ -38,8 +38,8 @@
 
     {
       "id": "3",
-      "nom": "Avec rosbif et cèpes",
-      "image": "https://www.zupimages.net/up/22/07/cel6.jpeg",
+      "nom": "La Rosbif et cèpes",
+      "image": "https://zupimages.net/up/22/07/0r3n.png",
       "prix": "10",
       "ingredients": [
         "Farine italienne",
@@ -54,8 +54,8 @@
 
     {
       "id": "4",
-      "nom": "Caprice classique",
-      "image": "https://www.zupimages.net/up/22/07/9fsb.jpeg",
+      "nom": "La Caprice classique",
+      "image": "https://zupimages.net/up/22/07/5jnz.png",
       "prix": "10",
       "ingredients": [
         "Farine italienne",
@@ -70,8 +70,8 @@
 
     {
       "id": "5",
-      "nom": "Multi-viande",
-      "image": "https://www.zupimages.net/up/22/07/l3mk.jpeg",
+      "nom": "La Multi-viande",
+      "image": "https://zupimages.net/up/22/07/blha.png",
       "prix": "10",
       "ingredients": [
         "Farine italienne",
@@ -89,8 +89,8 @@
 
     {
       "id": "6",
-      "nom": "A l'agneau",
-      "image": "https://www.zupimages.net/up/22/07/6nmb.jpeg",
+      "nom": "L'agneau",
+      "image": "https://zupimages.net/up/22/07/gk95.png",
       "prix": "10",
       "ingredients": [
         "Farine italienne",
@@ -107,8 +107,8 @@
 
     {
       "id": "7",
-      "nom": "Pepperoni",
-      "image": "https://www.zupimages.net/up/22/07/b1yk.jpeg",
+      "nom": "La Pepperoni",
+      "image": "https://zupimages.net/up/22/07/xgaa.png",
       "prix": "10",
       "ingredients": [
         "Farine italienne",
@@ -123,8 +123,8 @@
 
     {
       "id": "8",
-      "nom": "Avec du bacon",
-      "image": "https://www.zupimages.net/up/22/07/cqns.jpeg",
+      "nom": "La Bacon",
+      "image": "https://zupimages.net/up/22/07/ihf1.png",
       "prix": "10",
       "ingredients": [
         "Farine italienne",
@@ -139,8 +139,8 @@
 
     {
       "id": "9",
-      "nom": "Poulet aux champignons",
-      "image": "https://www.zupimages.net/up/22/07/c4pk.jpeg",
+      "nom": " La Poulet Champignons",
+      "image": "https://zupimages.net/up/22/07/u4sz.png",
       "prix": "10",
       "ingredients": [
         "Farine italienne",
@@ -156,8 +156,8 @@
 
     {
       "id": "10",
-      "nom": "Une sorte de jeu",
-      "image": "https://www.zupimages.net/up/22/07/1sdi.jpeg",
+      "nom": "La Sorte de jeu",
+      "image": "https://zupimages.net/up/22/07/tb5f.png",
       "prix": "10",
       "ingredients": [
         "Farine italienne",
@@ -174,8 +174,8 @@
 
     {
       "id": "11",
-      "nom": "Avec la Turquie",
-      "image": "https://www.zupimages.net/up/22/07/hepf.jpeg",
+      "nom": "La Turquie",
+      "image": "https://zupimages.net/up/22/07/txks.png",
       "prix": "10",
       "ingredients": [
         "Farine italienne",
@@ -191,9 +191,9 @@
     },
 
     {
-      "id": "11",
-      "nom": "Prosciutto",
-      "image": "https://www.zupimages.net/up/22/07/4s76.jpeg",
+      "id": "12",
+      "nom": "La Prosciutto",
+      "image": "https://zupimages.net/up/22/07/6bsa.png",
       "prix": "10",
       "ingredients": [
         "Farine italienne",
