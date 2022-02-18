@@ -12,8 +12,12 @@
 }
 
 .home h1 {
+  color: transparent;
+  font-size: 5em;
+  background: linear-gradient(to right, green, white, red);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
   font-family: var(--fontTitle);
-  color: var(--firstColor);
 }
 
 .home h2 {

@@ -11,10 +11,16 @@ const Nav = () => {
       </div>
       <ul className="navList">
         <li data-menuanchor="home" className="active">
-          <a href="#home">Home</a>
+          <a href="#home">Accueil</a>
         </li>
-        <li data-menuanchor="menu" className="navCommander">
-          <a href="#menu">Menu</a>
+        <li data-menuanchor="pizza" className="navCommander">
+          <a href="#pizza" style={{color: "green"}}>Pizzas</a>
+        </li>
+        <li data-menuanchor="pates" className="navCommander">
+          <a href="#pates">Pâtes</a>
+        </li>
+        <li data-menuanchor="dessert" className="navCommander" >
+          <a href="#dessert" style={{color: "red"}}>Desserts</a>
         </li>
         <li data-menuanchor="contact" className="active">
           <a href="#contact">Contact</a>

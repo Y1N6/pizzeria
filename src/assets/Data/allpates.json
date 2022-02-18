@@ -1,0 +1,39 @@
+{
+  "allPates": [
+    {
+      "id": "1",
+      "nom": "Carbonara",
+      "image": "https://zupimages.net/up/22/07/wgyb.png",
+      "prix": "10",
+      "ingredients": [
+        "pates complètes",
+        "oeuf",
+        "parmesan",
+        "pecorino",
+        "guanciale",
+        "huile d'olive",
+        "sel fin",
+        "poivre du moulin"
+      ]
+    },
+
+    {
+      "id": "2",
+      "nom": "Bolognaise",
+      "image": "https://zupimages.net/up/22/07/1akb.png",
+      "prix": "10",
+      "ingredients": [
+        "pates complètes",
+        "viande hachée pur boeuf",
+        "tomates pelées",
+        "oignons",
+        "ail",
+        "tyhm",
+        "laurier",
+        "huile d'olive",
+        "sel fin",
+        "poivre du moulin"
+      ]
+    }
+  ]
+}

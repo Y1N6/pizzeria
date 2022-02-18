@@ -18,10 +18,14 @@
 #nav ul {
   display: flex;
   flex-direction: row;
-  width: 50%;
+  width: 70%;
   justify-content: space-around;
   align-items: center;
   list-style-type: none;
+}
+
+#nav li {
+  width: 80px;
 }
 
 #nav a {
@@ -58,7 +62,7 @@
   width: 45px;
 }
 
-.navCommander {
+.navCommander:hover {
   font-size: 1.2em;
   -webkit-animation: heartbeat 1.5s ease-in-out infinite both;
   animation: heartbeat 1.5s ease-in-out infinite both;
