@@ -1,5 +1,5 @@
 import React from "react";
-import { Dialog, DialogOverlay, DialogContent } from "@reach/dialog";
+import { Dialog } from "@reach/dialog";
 import "@reach/dialog/styles.css";
 
 import "./styles/Contact.css";
