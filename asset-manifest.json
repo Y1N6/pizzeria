@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/pizzeria/static/css/main.d8694556.css",
+    "main.js": "/pizzeria/static/js/main.4e3a40c5.js",
+    "static/js/932.35ac3641.chunk.js": "/pizzeria/static/js/932.35ac3641.chunk.js",
+    "static/media/logo.png": "/pizzeria/static/media/logo.a7df396a0b1f08a9e71e.png",
+    "static/media/legumes.png": "/pizzeria/static/media/legumes.8e9f2fe8bd1ae3184d16.png",
+    "static/media/certif.png": "/pizzeria/static/media/certif.1a98ead8d84dd10eda4c.png",
+    "static/media/background.jpg": "/pizzeria/static/media/background.bcee1ca845a2b0c16d54.jpg",
+    "static/media/pizzaEating.gif": "/pizzeria/static/media/pizzaEating.d590b606eb064aeb7f45.gif",
+    "static/media/MilanoSans-Regular.ttf": "/pizzeria/static/media/MilanoSans-Regular.22a9246e600fac9942ef.ttf",
+    "index.html": "/pizzeria/index.html",
+    "main.d8694556.css.map": "/pizzeria/static/css/main.d8694556.css.map",
+    "main.4e3a40c5.js.map": "/pizzeria/static/js/main.4e3a40c5.js.map",
+    "932.35ac3641.chunk.js.map": "/pizzeria/static/js/932.35ac3641.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d8694556.css",
+    "static/js/main.4e3a40c5.js"
+  ]
+}
