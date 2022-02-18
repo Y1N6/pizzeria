@@ -48,3 +48,29 @@
 #taille-select {
   border-radius: 3px;
 }
+
+@media (max-width: 600px) {
+  .pizzaContainer {
+    flex-direction: column;
+    height: 400px;
+    margin: 0;
+  }
+
+  .pizzaContainer img {
+    width: 150px;
+  }
+
+  .detail-wrapper {
+    align-items: center;
+    padding-left: 0;
+    height: auto;
+    text-align: center;
+  }
+
+  .Holderprice {
+    justify-content: center;
+  }
+  .detail-wrapper p {
+    margin: 10px 0;
+  }
+}
